@@ -7,6 +7,10 @@ public class GetBookingRestAPI {
 
     public static void main(String[] args) {
 
+        /*
+          This is a Git Request with BDD Format
+         */
+
         RestAssured
                 .given()
                     .basePath("https://restful-booker.herokuapp.com/")
